@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+  docker-compose pull
+  docker-compose up -d --remove-orphans
+else
+  docker-compose down
+fi

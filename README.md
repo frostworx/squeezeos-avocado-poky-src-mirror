@@ -1,7 +1,7 @@
 # squeezeos-avocado-poky-src-mirror
 source mirror with some files required by the squeezeos poky build process
 
-WIP - likely will add nginx docker support to host it locally for 
+you might want to use the provided docker-compose.yml file to host the files locally for
 https://github.com/frostworx/squeezeos-avocado
 
 this project is meant as a temporary solution until there is no "official" community url hosting those files.
